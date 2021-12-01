@@ -1,4 +1,6 @@
 # is117-docker
+This will get apache server running locally using docker with a public_html folder that you can edit web pages that are then served by apache
+
 1. [Containerization vs. Virtualization](https://www.ibm.com/cloud/blog/containers-vs-vms)
 2. [Signup for Docker](https://www.docker.com)
 3. [Install WSL2 and Docker Desktop - Windows Only](https://andrewlock.net/installing-docker-desktop-for-windows/)
@@ -8,3 +10,13 @@
 * Instructions:
 1. command: docker compose up
 2. goto http://locahost:8080
+
+control c (windows stops apache) command c (mac stops apache)
+
+Docker Hub is where you can find images to run with docker.  Try to install ubuntu server 
+https://hub.docker.com/search?type=image
+
+docker runing ubuntu server: docker run -it ubuntu:latest
+type exit to get out of the ubuntu container
+
+[Docker and Mysql](https://towardsdatascience.com/how-to-run-mysql-using-docker-ed4cebcd90e4)

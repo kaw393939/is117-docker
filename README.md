@@ -1,5 +1,6 @@
 # is117-docker
 This will get apache server running locally using docker with a public_html folder that you can edit web pages that are then served by apache
+You need to clone this repo and be in the directory.
 
 1. [Containerization vs. Virtualization](https://www.ibm.com/cloud/blog/containers-vs-vms)
 2. [Signup for Docker](https://www.docker.com)
